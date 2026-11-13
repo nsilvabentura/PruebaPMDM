@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PruebaPMDM</string>
+
+    <!-- Ejercicios 1, 2 y 3 -->
+    <string name="saludo_examen">¡Hola! Bienvenido a la app de PMDM</string>
+    <string name="saludo_alternativo">¡Has pulsado el botón! Texto cambiado.</string>
+    <string name="btn_texto_1">Cambiar a texto 2</string>
+    <string name="btn_texto_2">Volver al texto 1</string>
+    <string name="hint_nombre">Introduce tu nombre</string>
+    <string name="btn_saludar">Saludar</string>
+
+    <!-- Ejercicios 4, 5 y 6 (Calculadora) -->
+    <string name="hint_num1">Número 1</string>
+    <string name="hint_num2">Número 2</string>
+    <string name="btn_sumar">+</string>
+    <string name="btn_restar">-</string>
+    <string name="btn_multiplicar">×</string>
+    <string name="btn_dividir">÷</string>
+    <string name="resultado_defecto">Resultado: </string>
+    <string name="btn_reutilizar">Cargar resultado en Número 1</string>
+</resources>

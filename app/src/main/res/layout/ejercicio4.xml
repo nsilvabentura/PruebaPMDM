@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- FILA SUPERIOR -->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top|start"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="Top-Left"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:text="Top-Center" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top|end"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:text="Top-Right"
+        android:textColor="#FFFFFF" />
+
+    <!-- FILA CENTRAL -->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|start"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:text="Mid-Left" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="#FF00FF"
+        android:gravity="center"
+        android:text="Center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|end"
+        android:background="#00FFFF"
+        android:gravity="center"
+        android:text="Mid-Right" />
+
+    <!-- FILA INFERIOR -->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|start"
+        android:background="#800080"
+        android:gravity="center"
+        android:text="Bot-Left"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#FFA500"
+        android:gravity="center"
+        android:text="Bot-Center" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|end"
+        android:background="#008000"
+        android:gravity="center"
+        android:text="Bot-Right"
+        android:textColor="#FFFFFF" />
+
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="*">
+
+
+    <TextView
+        android:id="@+id/tvPantalla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#E2E8F0"
+        android:gravity="end|center_vertical"
+        android:minHeight="64dp"
+        android:padding="16dp"
+        android:text="0"
+        android:textColor="#0F172A"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <TableRow android:layout_marginBottom="8dp">
+        <Button android:id="@+id/btnC" android:text="C" android:minHeight="48dp" />
+        <Button android:id="@+id/btnDiv" android:text="/" android:minHeight="48dp" />
+        <Button android:id="@+id/btnMult" android:text="*" android:minHeight="48dp" />
+        <Button android:id="@+id/btnResta" android:text="-" android:minHeight="48dp" />
+    </TableRow>
+
+
+    <TableRow android:layout_marginBottom="8dp">
+        <Button android:id="@+id/btn7" android:text="7" android:minHeight="48dp" />
+        <Button android:id="@+id/btn8" android:text="8" android:minHeight="48dp" />
+        <Button android:id="@+id/btn9" android:text="9" android:minHeight="48dp" />
+        <Button android:id="@+id/btnSuma" android:text="+" android:minHeight="48dp" />
+    </TableRow>
+
+
+    <TableRow android:layout_marginBottom="8dp">
+        <Button android:id="@+id/btn4" android:text="4" android:minHeight="48dp" />
+        <Button android:id="@+id/btn5" android:text="5" android:minHeight="48dp" />
+        <Button android:id="@+id/btn6" android:text="6" android:minHeight="48dp" />
+    </TableRow>
+
+
+    <TableRow android:layout_marginBottom="8dp">
+        <Button android:id="@+id/btn1" android:text="1" android:minHeight="48dp" />
+        <Button android:id="@+id/btn2" android:text="2" android:minHeight="48dp" />
+        <Button android:id="@+id/btn3" android:text="3" android:minHeight="48dp" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_span="2"
+            android:minHeight="48dp"
+            android:text="0" />
+        <Button android:id="@+id/btnPunto" android:text="." android:minHeight="48dp" />
+        <Button android:id="@+id/btnIgual" android:text="=" android:minHeight="48dp" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ejercicio 8: Array de colores para Spinner -->
+    <string-array name="lista_colores">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Amarillo</item>
+    </string-array>
+
+    <!-- Ejercicio 19: Array de países para AutoCompleteTextView -->
+    <string-array name="paises_array">
+        <item>España</item>
+        <item>Francia</item>
+        <item>Italia</item>
+        <item>Alemania</item>
+        <item>Portugal</item>
+        <item>Argentina</item>
+        <item>México</item>
+    </string-array>
+</resources>

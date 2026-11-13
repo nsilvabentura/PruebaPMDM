@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--APUNTES MANIFEST:
+         El AndroidManifest.xml es el "registro civil" de la app.
+         Toda pantalla (Activity) que crees en Kotlin TIENE que estar registrada aquí dentro.
+         Si lanzas un startActivity() hacia una pantalla no declarada, la app se cierra con error (Crash). -->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PruebaPMDM"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PruebaPMDM"
+        tools:targetApi="31">
+
+        <!--PANTALLA PRINCIPAL -->
+        <!--android:exported="true" -> Permite que Android ejecute esta Activity desde el menú del movil -->
+        <activity
+            android:name=".Main"
+            android:exported="true">
+            <intent-filter>
+                <!--MAIN + LAUNCHER: esta es la primera pantalla que se abre -->
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--pantalla de boletin-->
+        <!--android:exported="false" ->solo se abre desde la app-->
+        <activity android:name=".Ejercicio1" android:exported="false" />
+        <activity android:name=".Ejercicio2" android:exported="false" />
+        <activity android:name=".Ejercicio2Destino" android:exported="false" />
+        <activity android:name=".Ejercicio3" android:exported="false" />
+        <activity android:name=".Ejercicio3Pantalla1" android:exported="false" />
+        <activity android:name=".Ejercicio3Pantalla2" android:exported="false" />
+        <activity android:name=".Ejercicio3Pantalla3" android:exported="false" />
+        <activity android:name=".Ejercicio4" android:exported="false" />
+        <activity android:name=".Ejercicio5" android:exported="false" />
+        <activity android:name=".Ejercicio6" android:exported="false" />
+
+    </application>
+
+</manifest>
